@@ -1,4 +1,6 @@
+using Autofac;
 using FluentValidation.AspNetCore;
+using Identity.Api.Modules;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -34,6 +36,26 @@ namespace Identity.Api
 
             //services.AddAutoMapper(CurrentAssembly);
             services.AddMvc().AddFluentValidation();
+        }
+
+        /// <summary>
+        /// Configure container for autoface.
+        /// </summary>
+        /// <param name="builder">ContainerBuilder</param>
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            //builder.RegisterConfiguration<DatabaseSettings>(Configuration, nameof(DatabaseSettings));
+            //builder.RegisterConfiguration<PasswordConfigs>(Configuration, nameof(PasswordConfigs));
+            //builder.RegisterConfiguration<JwtAppSettings>(Configuration, nameof(JwtAppSettings));
+            //builder.RegisterConfiguration<EmailSettings>(Configuration, nameof(EmailSettings));
+
+            //builder.RegisterModule(new AzureTableModule(Configuration));
+            //builder.RegisterModule(new EFModule(Configuration));
+            //builder.RegisterModule(new RepositoryModule());
+            //builder.RegisterModule(new ServiceModule());
+            //builder.RegisterModule(new CQRSModule());
+            //builder.RegisterModule(new WebLoggerModule(Configuration, AssemblyName));
+            builder.RegisterModule(new OpenIddictModule(Configuration));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
