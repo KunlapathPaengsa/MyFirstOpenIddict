@@ -1,0 +1,14 @@
+{
+  "swagger": {
+    "enabled": false,
+    "reDocEnabled": false,
+    "includeSecurity": false,
+    "documentTitle": "Identity Api",
+    "versions": [
+      {
+        "title": "Identity Api v1.0",
+        "version": "v1.0"
+      }
+    ]
+  }
+}
