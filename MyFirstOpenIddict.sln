@@ -9,23 +9,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{36
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Membership", "Membership", "{18394EA7-64E8-44FD-BB3B-7E1BF906E826}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Api", "Identity.Api\Identity.Api.csproj", "{73F63925-FF08-4012-90FE-2E7F449F4D4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.Api", "Identity.Api\Identity.Api.csproj", "{73F63925-FF08-4012-90FE-2E7F449F4D4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.CQRS", "Identity.CQRS\Identity.CQRS.csproj", "{86168CCC-5766-46B5-BEF8-383E4E30F29A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.CQRS", "Identity.CQRS\Identity.CQRS.csproj", "{86168CCC-5766-46B5-BEF8-383E4E30F29A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Services", "Identity.Services\Identity.Services.csproj", "{66F37DCB-D235-410F-A0CC-827DAF05864B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.Services", "Identity.Services\Identity.Services.csproj", "{66F37DCB-D235-410F-A0CC-827DAF05864B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.DTOs", "Identity.DTOs\Identity.DTOs.csproj", "{88E5EC4A-6116-4887-94B5-371E868B00C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.DTOs", "Identity.DTOs\Identity.DTOs.csproj", "{88E5EC4A-6116-4887-94B5-371E868B00C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Models", "Identity.Models\Identity.Models.csproj", "{059A1487-34F4-4C7E-8FAA-554B22755512}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.Models", "Identity.Models\Identity.Models.csproj", "{059A1487-34F4-4C7E-8FAA-554B22755512}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.DAL", "Identity.DAL\Identity.DAL.csproj", "{FE387735-99DC-4FA0-AC6B-6650AF147438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.DAL", "Identity.DAL\Identity.DAL.csproj", "{FE387735-99DC-4FA0-AC6B-6650AF147438}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{032E632B-72E8-4E11-ADA4-A9924470A0BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstOpenIddict.Common.Web.Results", "MyFirstOpenIddict.Common.Web.Results\MyFirstOpenIddict.Common.Web.Results.csproj", "{051B9510-CDA4-4780-B627-EE6C97C5E9EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstOpenIddict.Common.Web.Results", "MyFirstOpenIddict.Common.Web.Results\MyFirstOpenIddict.Common.Web.Results.csproj", "{051B9510-CDA4-4780-B627-EE6C97C5E9EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstOpenIddict.Common.Web.DTOs", "MyFirstOpenIddictCommon.Web.DTOs\MyFirstOpenIddict.Common.Web.DTOs.csproj", "{05742D2E-2B04-4BA8-BBCB-C23000191349}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstOpenIddict.Common.Web.DTOs", "MyFirstOpenIddictCommon.Web.DTOs\MyFirstOpenIddict.Common.Web.DTOs.csproj", "{05742D2E-2B04-4BA8-BBCB-C23000191349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstOpenIddict.Common.Web.OpenIddict", "MyFirstOpenIddict.Common.Web.OpenIddict\MyFirstOpenIddict.Common.Web.OpenIddict.csproj", "{3C5FC29F-7959-44B0-A358-43765F18EDF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{05742D2E-2B04-4BA8-BBCB-C23000191349}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05742D2E-2B04-4BA8-BBCB-C23000191349}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05742D2E-2B04-4BA8-BBCB-C23000191349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5FC29F-7959-44B0-A358-43765F18EDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5FC29F-7959-44B0-A358-43765F18EDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5FC29F-7959-44B0-A358-43765F18EDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5FC29F-7959-44B0-A358-43765F18EDF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +86,7 @@ Global
 		{FE387735-99DC-4FA0-AC6B-6650AF147438} = {36827932-C667-48D8-998F-F93F8DDFB988}
 		{051B9510-CDA4-4780-B627-EE6C97C5E9EE} = {032E632B-72E8-4E11-ADA4-A9924470A0BE}
 		{05742D2E-2B04-4BA8-BBCB-C23000191349} = {032E632B-72E8-4E11-ADA4-A9924470A0BE}
+		{3C5FC29F-7959-44B0-A358-43765F18EDF0} = {032E632B-72E8-4E11-ADA4-A9924470A0BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF5DF211-7F5E-4F77-8A69-6C5EFB4AEE13}
